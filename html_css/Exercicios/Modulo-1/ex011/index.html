@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo-urso.png" type="image/x-icon">
+
+    <title>Mídias dinâmica</title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanha do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imge/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imge/fotom.png" type="image/png">
+        <img src="imge/fotog.png" alt="imagem flexivel">
+
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir um audio em HTML5</p>
+    <audio src="midia/Carried - Lauren Duski.mp3" controls autoplay></audio>
+  
+    <!-- MP3 WAV OGG-->
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/Carried - Lauren Duski.mp3" type="audio/mpeg">
+        <source src="midia/Carried - Lauren Duski.ogg" type="audio/ogg">
+        <source src="midia/Carried - Lauren Duski.mp3" type="audio/wav">
+        <p>Caso não reproduza, infelizmente seu navegador não reproduz o ádios. <a href="midia/Carried - Lauren Duski.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+        
+    </audio>
+    <p>Caso não reproduza, infelizmente seu navegador não reproduz o ádios. <a href="midia/Carried - Lauren Duski.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    
+
+    
+</body>
+</html>
